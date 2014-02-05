@@ -1,0 +1,17 @@
+{
+    "name" : "foo",
+    "builds" : {
+        "foo" : {
+            "jsfiles" : [
+                "foo1.js",
+                "foo2.js"
+            ],
+            "config" : {
+                "requires" : [
+                    "base",
+                    "node"
+                ]
+            }
+        }
+    }
+}

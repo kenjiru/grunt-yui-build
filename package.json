@@ -1,0 +1,41 @@
+{
+    "name": "grunt-yui-build",
+    "description": "YUI3 build plugin to replace Shifter.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/kenjiru/grunt-yui-build",
+    "author": {
+        "name": "kenjiru",
+        "email": "kenjiru.ro@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kenjiru/grunt-yui-build.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kenjiru/grunt-yui-build/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/kenjiru/grunt-yui-build/blob/master/LICENSE-MIT"
+        }
+    ],
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "async": "~0.2.5",
+        "mkdirp": "~0.3.5",
+        "ncp": "~0.5.0"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.2"
+    },
+    "keywords": [
+        "gruntplugin"
+    ]
+}

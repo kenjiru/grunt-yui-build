@@ -1,0 +1,20 @@
+{
+    "name" : "bar",
+    "builds" : {
+        "bar" : {
+            "jsfiles" : [
+                "bar1.js",
+                "bar2.js",
+                "bar3.js"
+            ],
+            "config": {
+                "requires" : [
+                    "base",
+                    "widget",
+                    "overlay"
+                ],
+                "lang" : [ "de" ]
+            }
+        }
+    }
+}
