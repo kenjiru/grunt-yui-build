@@ -16,7 +16,7 @@ module.exports = function (grunt) {
         scanModules.init.call(this, grunt);
     });
 
-    grunt.registerTask('build-yui-module', 'Builds a single YUI3 module.', function() {
+    grunt.registerTask('build-yui-modules', 'Builds a single YUI3 module.', function() {
         buildYuiModule.init.call(this, grunt);
     });
 };
