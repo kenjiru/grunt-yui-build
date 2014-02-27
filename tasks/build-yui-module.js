@@ -8,12 +8,12 @@
 
 'use strict';
 
-var scanModules = require('../lib/scan-modules.js'),
+var walk = require('../lib/walk.js'),
     buildYuiModule = require('../lib/build-yui-module.js');
 
 module.exports = function (grunt) {
-    grunt.registerTask('scan-modules', 'Scan for modules.', function() {
-        scanModules.init.call(this, grunt);
+    grunt.registerTask('walk', 'Scan for modules.', function() {
+        walk.init.call(this, grunt);
     });
 
     grunt.registerTask('build-yui-modules', 'Builds a single YUI3 module.', function() {
